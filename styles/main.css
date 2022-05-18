@@ -1,0 +1,255 @@
+body {
+  background-color: #FFF;
+  font-family: 'Assistant', sans-serif;
+  color: #007A85;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #007A85;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #007A85 !important;
+}
+
+header {
+  padding: 150px 0 165px;
+  margin-top: -80px;
+  background-image: url("../images/header.png");
+  background-size: cover;
+}
+
+header h1, header p {
+  color: #FFF;
+}
+
+header h1 {
+  margin-top: 50px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header .btn-read-more {
+  background-color: #3A7D83;
+  color: #FFF;
+}
+
+header .btn-read-more:hover {
+  background-color: #79C8CF;
+  color: #FFF;
+}
+
+.section-statistik {
+  margin-top: -50px;
+}
+
+.section-statistik .statistik-detail {
+  padding-top: 15px;
+  background-color: #FFF;
+  padding-left: 40px;
+  padding-right: 80px;
+}
+
+.section-statistik h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.section-statistik p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-about {
+  background-color: #013B41;
+  margin-top: -80px;
+}
+
+.section-about .section-about-heading {
+  margin-top: 150px;
+}
+
+.section-about .section-about-heading h2, .section-about .section-about-heading p {
+  color: #FFF;
+}
+
+.section-about .section-about-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-about .section-about-heading p {
+  font-size: 18px;
+}
+
+.section-wisata {
+  min-height: 540px;
+  background-color: #013B41;
+  margin-top: -100px;
+  margin-bottom: -230px;
+}
+
+.section-wisata .section-wisata-heading {
+  margin-top: 150px;
+}
+
+.section-wisata .section-wisata-heading h2, .section-wisata .section-wisata-heading p {
+  color: #FFF;
+}
+
+.section-wisata .section-wisata-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-wisata .section-wisata-heading p {
+  font-size: 18px;
+}
+
+.section-wisata-content .section-wisata-member .card-wisata {
+  min-height: 380px;
+  background-color: #DDD;
+  color: #FFF;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-wisata-content .section-wisata-member .wisata-kecamatan {
+  font-size: 18px;
+  color: #FFF;
+}
+
+.section-wisata-content .section-wisata-member .wisata-lokasi {
+  font-size: 26px;
+  color: #FFF;
+}
+
+.section-wisata-content .section-wisata-member .wisata-button .btn-wisata-details {
+  background-color: #3A7D83;
+  color: #FFF;
+}
+
+.section-wisata-content .section-wisata-member .wisata-button .btn-wisata-details:hover {
+  background-color: #79C8CF;
+  color: #FFF;
+}
+
+.section-partner {
+  background-color: #fff;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+}
+
+.section-partner h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+.section-partner img {
+  max-width: 100%;
+}
+
+.section-galeri-heading {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.section-galeri-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.card-galeri img {
+  min-height: 226px;
+}
+
+.section-footer {
+  margin-top: 120px;
+}
+
+.section-footer a {
+  color: #007A85;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background-color: #E4E6EB;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -150px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #007A85;
+}
+
+.card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.card-details h1 {
+  font-size: 26px;
+}
+
+.card-details h2 {
+  font-size: 20px;
+}
+
+.card-details p {
+  font-size: 18px;
+  color: #838383;
+}
+
+.features {
+  margin-top: 20px;
+}
+
+.features h3 {
+  font-size: 18px;
+  color: #007A85;
+  margin-bottom: 0;
+}
+
+.features p {
+  margin-bottom: 0;
+}
+
+.features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+/*# sourceMappingURL=main.css.map */

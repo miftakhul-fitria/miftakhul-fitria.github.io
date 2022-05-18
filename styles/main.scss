@@ -1,0 +1,288 @@
+body {
+    background-color: #FFF;
+    font-family: 'Assistant', sans-serif;
+    color: #007A85;
+}
+
+// Navbar
+.navbar-brand {
+    img {
+        max-height: 40px;
+        // max-width: 180px;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #007A85;
+
+            &.active {
+                font-weight: bold;
+                color: #007A85 !important;
+            }
+        }
+    }
+}
+// Akhir navbar
+
+// Header
+header {
+    padding: 150px 0 165px;                         //atas 150px, kanan 0px, bawah 165px
+    margin-top: -80px;
+    background-image: url('../images/header.png');
+    background-size: cover;
+
+    h1, p {
+        color: #FFF;
+    }
+
+    h1 {
+        margin-top: 50px;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .btn-read-more {
+        background-color: #3A7D83;
+        color: #FFF;
+
+        &:hover {
+            background-color: #79C8CF;
+            color: #FFF;
+        }
+    }
+}
+// Akhir header
+
+// Statistik
+.section-statistik {
+    margin-top: -50px;
+
+    .statistik-detail {
+        padding-top: 15px;
+        background-color: #FFF;
+        padding-left: 40px;
+        padding-right: 80px;
+    }
+    
+    h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    
+    p {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+}
+// Akhir statistik
+
+// About
+.section-about {
+    background-color: #013B41;
+    margin-top: -80px;
+
+    .section-about-heading {
+        margin-top: 150px;
+
+        h2, p {
+            color: #FFF;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}
+// Akhir about
+
+// Wisata
+.section-wisata {
+    min-height: 540px;
+    background-color: #013B41;
+    margin-top: -100px;
+    margin-bottom: -230px;
+
+    .section-wisata-heading {
+        margin-top: 150px;
+
+        h2, p {
+            color: #FFF;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+.section-wisata-content {
+    .section-wisata-member {
+        .card-wisata {
+            min-height: 380px;
+            background-color: #DDD;
+            color: #FFF;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+
+        .wisata-kecamatan {
+            font-size: 18px;
+            color: #FFF;
+        }
+
+        .wisata-lokasi {
+            font-size: 26px;
+            color: #FFF;
+        }
+
+        .wisata-button {
+            .btn-wisata-details {
+                background-color: #3A7D83;
+                color: #FFF;
+
+                &:hover {
+                    background-color: #79C8CF;
+                    color: #FFF;
+                }
+            }
+        }
+    }
+}
+// Akhir wisata
+
+// Partner
+.section-partner {
+    background-color: #fff;
+    margin-top: -170px;
+    padding-top: 240px;
+    padding-bottom: 50px;
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+// Akhir partner
+
+// Galeri
+.section-galeri-heading {
+    background: linear-gradient(#fff 0%, #f7f9ff 100%);
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+}
+
+.card-galeri{
+    img {
+        min-height: 226px;
+        // background-size: cover;
+    }
+}
+// Akhir galeri
+
+// Footer
+.section-footer {
+    margin-top: 120px;
+    a {
+      color: #007A85;
+    }
+}
+// Akhir footer
+
+// Detail
+.section-details-header {
+    min-height: 310px;
+    background-color: #E4E6EB;
+    margin-top: -70px;
+}
+
+.section-details-content {
+    margin-top: -150px;
+    min-height: 100vh;
+  
+    .breadcrumb {
+      background-color: transparent;
+      margin-bottom: 30px;
+    }
+  
+    .breadcrumb-item {
+      &.active {
+        font-weight: bold;
+        color: #007A85;
+      }
+    }
+}
+
+.card-details {
+    padding: 30px;
+    border-radius: 11px;
+
+    h1 {
+      font-size: 26px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #838383;
+    }
+}
+
+.features {
+    margin-top: 20px;
+
+    h3 {
+      font-size: 18px;
+      color: #007A85;
+      margin-bottom: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .description {
+      margin-left: 10px;
+      overflow: hidden;
+      float: left;
+    }
+
+    .features-image {
+      width: 45px;
+      height: 45px;
+      float: left;
+    }
+}
+// Akhir detail
